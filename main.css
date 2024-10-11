@@ -10,10 +10,10 @@ body {
 img {
     float: right;
     margin: 0 0 20px 20px;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: auto;
     object-fit: contain;
-    background-color: #f0f0f0; /* Optional: adds a light background if the image doesn't fill the entire space */
+    background-color: #f0f0f0;
 }
 
 a {
