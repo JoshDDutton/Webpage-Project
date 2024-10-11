@@ -56,9 +56,12 @@ td:first-child {
     background-color: #e6f2ff;
 }
 
-/* Ensure empty cells have visible borders */
 td:empty {
     border: 2px solid black;
+}
+
+td {
+    border: 2px solid black !important;
 }
 
 .english, .german, .calculus, .work, .cs {
