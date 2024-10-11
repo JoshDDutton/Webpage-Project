@@ -28,23 +28,37 @@ a:hover {
 }
 
 table {
-    border-collapse: separate;
-    border-spacing: 3px;
+    border-collapse: collapse;
     width: 100%;
 }
 
 th, td {
     border: 1px solid black;
-    padding: 3px;
-    text-align: left;
-    vertical-align: top;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    height: 40px;
 }
 
 th {
     background-color: #f2f2f2;
+    font-weight: bold;
 }
 
-.math { background-color: #ffff99; }
-.english { background-color: #99ff99; }
-.science { background-color: #ff9999; }
-.history { background-color: #9999ff; }
+td:first-child {
+    font-weight: bold;
+    background-color: #f2f2f2;
+}
+
+.computer-science {
+    background-color: #e6f2ff;
+}
+
+/* Remove any conflicting styles */
+td[rowspan] {
+    background-color: inherit;
+}
+
+.english, .german, .calculus, .work, .cs {
+    background-color: inherit;
+}
