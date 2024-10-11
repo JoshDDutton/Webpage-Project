@@ -3,8 +3,6 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 20px;
-    background-image: url('img/IMG_2232.JPEG');
-    background-repeat: repeat;
 }
 
 img {
@@ -12,7 +10,7 @@ img {
     margin: 0 0 20px 20px;
     min-width: 0px;
     min-height: 0px;
-    width: 200px;
+    width: 500px;
     height: auto;
     object-fit: contain;
     background-color: #f0f0f0;
