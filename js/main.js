@@ -8,9 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     img.onclick = function() {
         modal.style.display = "block";
         modalImg.src = this.src;
-        document.body.classList.add('modal-open');
         contentWrapper.style.filter = 'blur(5px)';
-        modal.style.filter = 'none'; // Ensure modal is not blurred
     }
 
     closeBtn.onclick = closeModal;
@@ -23,7 +21,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function closeModal() {
         modal.style.display = "none";
-        document.body.classList.remove('modal-open');
         contentWrapper.style.filter = 'none';
     }
 });
