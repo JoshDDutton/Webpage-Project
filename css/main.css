@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 20px;
-    background-image: url('../images/snow.jpg');
+    background-image: url('img/snow.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
