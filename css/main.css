@@ -126,7 +126,6 @@ tr:nth-child(even) td:last-child {
     display: block;
     width: 80%;
     max-width: 700px;
-    filter: none !important;
 }
 
 .close {
@@ -137,10 +136,15 @@ tr:nth-child(even) td:last-child {
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
-    filter: none !important;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 body.modal-open {
     overflow: hidden;
 }
-
